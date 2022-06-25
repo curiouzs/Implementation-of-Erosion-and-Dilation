@@ -13,9 +13,6 @@ Create the Text using cv2.putText.
 Create the structuring element.
 ### Step4:
 Erode the image using cv2.erode().
-### Step5:
-Dilate the image using cv2.dilate().
-
 ## Program:
 ```python
 #DEVELOPED BY : M LOKESH KRISHNAA 
@@ -46,6 +43,5 @@ plt.imshow(img_dilate,cmap='gray')
 ![2](https://user-images.githubusercontent.com/75234646/169662545-04dc265d-ac29-4e76-8329-432efd50944e.PNG)
 ### Display the Dilated Image
 ![3](https://user-images.githubusercontent.com/75234646/169662552-8e8fda7b-52d0-4b6f-a044-3e0c2d6369f1.PNG)
-
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
